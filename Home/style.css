@@ -1,0 +1,152 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container-grid{
+    padding: 0 250px;
+    margin-left: 300vw;
+    margin-right: 300vw;
+    width: 100vw;
+}
+body{
+    /* position: absolute;
+     */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    
+}
+
+
+.Jogos{
+    background-image: linear-gradient(to top , rgb(0, 0, 0), rgba(37, 37, 37, 0));
+}
+
+header{
+    color: white;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    overflow-y: fixed;
+   
+    
+}
+header nav a{
+    font-family: "Anton";    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 150px;
+}
+
+button{
+    background-color: hsl(47, 100%, 50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 115px;
+    height: 90px;
+    border-radius: 7px;
+    
+    
+}
+button h2{
+    font-family: "Anton";
+    font-size: 30px;
+}
+.parallax-banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.parallax-banner {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-image: url('../Assets/img/Jogos/Banner\ permanente.png');
+
+    /* fixa a imagem */ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+}
+
+.parallax-banner img{
+    position: relative;
+    z-index: 2;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center ;
+    align-items: end;
+
+}
+.welcome{
+    width: 300px;
+    height: 250px;
+
+}
+
+.parallax-banner h1{
+    position: relative;
+    /*  */
+    z-index: 2;
+    font-family: "Anton";
+    
+}
+
+.Jogos{
+    color: white;
+    font-family: "Anton";
+    font-size: 52px;
+    width: 550px;
+    height: 400px;
+}
+
+.Jogos, h2{
+    margin: 100px 0;
+}
+.Jogos, img{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 250px;
+}
+
+
+footer{
+    color: white;
+    width: 1440px;
+    height: 98px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer, p{
+    font-family: "Anton";
+    font-size: 35px;
+}
+footer, .Imgs {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}       
